@@ -1,6 +1,15 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "pnpm",
+      "unrs-resolver",
+      "@img/sharp-libvips-linux-x64",
+      "@next/swc-linux-x64-gnu",
+      "@rolldown/binding-linux-x64-gnu"
+    ]
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
