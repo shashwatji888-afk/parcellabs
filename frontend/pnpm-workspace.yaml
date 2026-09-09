@@ -1,0 +1,6 @@
+﻿onlyBuiltDependencies:
+  - pnpm
+  - unrs-resolver
+  - "@img/sharp-libvips-linux-x64"
+  - "@next/swc-linux-x64-gnu"
+  - "@rolldown/binding-linux-x64-gnu"
